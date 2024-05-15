@@ -3,7 +3,7 @@ Set up a Google Cloud Run job to validate unreleased data files.
 
 Scheduled to run daily at 0400 ET.
 
-Results from the validation scripts are stored in the `htan-dcc.data_release` Google BigQuery dataset. These tables serve as the foundation for generating the final list of releasable HTAN portal files.
+Results from the validation scripts are stored in the `htan-dcc.data_release` Google BigQuery dataset. These tables serve as the foundation for generating the final list of releasable HTAN portal files (see: [SOP: Data Release Prep](https://docs.google.com/document/d/1yXwGlCXRM8x8mjC_MQzQDeNzxRl1h5MX3tACfmQIBJ0/edit)). 
 
 ## Requirements
 Requires access to deploy resources in the HTAN Google Cloud Project, `htan-dcc`. Please contact an owner of `htan-dcc` to request access (Owners in 2024: Clarisse Lau, Vesteinn Thorsson, William Longabaugh, ISB)
